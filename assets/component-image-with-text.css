@@ -336,4 +336,5 @@
 .image-with-text .image-with-text__media,
 .image-with-text .image-with-text__media img {
   border-radius: 0;
+  border: 0 ; 
 }
