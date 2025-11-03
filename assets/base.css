@@ -2485,7 +2485,11 @@ input[type='checkbox'] {
 	flex-basis: 100%;
 }
 
-
+.cart-count-bubble {
+	top: 1rem;
+	left: inherit;
+	right: 2rem;
+}
 .header__search {
 	border-left: 1px solid black;
 	height: 100%;
