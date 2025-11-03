@@ -358,3 +358,13 @@
   text-transform: uppercase;
   word-break: keep-all;
 }
+
+
+.image-with-text a.button {
+	background: none;
+	color: black;
+	font-family: var(--font-heading-family);
+	font-size: 29px;
+	line-height: 146%; /* 42.34px */
+	padding: 0;
+}
