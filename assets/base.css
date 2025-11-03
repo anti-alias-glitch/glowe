@@ -2212,8 +2212,8 @@ input[type='checkbox'] {
   padding: 1rem 0;
   margin: 0;
   letter-spacing: 0rem;
-    font-family: var(--font-body-family);
-    letter-spacing: 0.225em
+  font-family: var(--font-body-family);
+  letter-spacing: 0.225em
 
 }
 
@@ -2412,6 +2412,26 @@ input[type='checkbox'] {
 .header__icon--cart {
   position: relative;
   margin-right: -1.2rem;
+  
+}
+
+@media (min-width: 990px) {
+  .header__search summary span svg {
+    display: none;
+  }
+
+  .header__search summary > span::after {
+    content: 'Search';
+    line-height: 1;
+  }
+
+  a.header__icon--cart svg {
+    display: none;
+  }
+
+  a.header__icon--cart::after {
+    content: 'Cart';
+  }
 }
 
 @media screen and (max-width: 989px) {
