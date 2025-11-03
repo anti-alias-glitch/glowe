@@ -2281,10 +2281,16 @@ input[type='checkbox'] {
     column-gap: 2rem;
   }
 
-  .header--middle-center .header__inline-menu>ul>li {
-    border-right: 1px solid black;
-    height: 100%;
-  }
+  .header--middle-center .header__inline-menu>ul {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+ .header--middle-center .header__inline-menu>ul>li {
+	border-right: 1px solid black;
+	height: 100%;
+	flex-basis: 100%
+}
 
   .header--middle-center .header__inline-menu,
   .header--middle-center .list-menu--inline,
