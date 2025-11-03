@@ -338,3 +338,23 @@
   border-radius: 0;
   border: 0 ; 
 }
+
+.image-with-text .image-with-text__heading {
+  font-size: calc(2em + 5vw);
+  font-style: normal;
+  font-weight: 200;
+  line-height: 95.5%; /* 98.365px */
+  letter-spacing: 0.515px;
+  text-transform: uppercase;
+  word-break: keep-all;
+}
+
+.image-with-text .image-with-text__heading {
+  font-size: calc(2em + 5vw);
+  font-style: normal;
+  font-weight: 200;
+  line-height: 95.5%; /* 98.365px */
+  letter-spacing: 0.515px;
+  text-transform: uppercase;
+  word-break: keep-all;
+}
