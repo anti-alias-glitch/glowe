@@ -368,3 +368,6 @@
 	line-height: 146%; /* 42.34px */
 	padding: 0;
 }
+.image-with-text a.button:after {
+	box-shadow: none;
+}
