@@ -2248,7 +2248,7 @@ input[type='checkbox'] {
 }
 
 .header-wrapper--border-bottom {
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  border-bottom: 1px solid black;
 }
 
 .header {
@@ -2462,7 +2462,7 @@ input[type='checkbox'] {
     content: 'Search';
     line-height: 1;
   }
-  
+
 /* a.header__icon--cart svg */
   a.header__icon svg {
     display: none;
