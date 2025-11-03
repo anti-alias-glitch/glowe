@@ -332,3 +332,8 @@
   padding-left: 0 !important; 
   padding-right: 0 !important;
 }
+
+.image-with-text .image-with-text__media,
+.image-with-text .image-with-text__media img {
+  border-radius: 0;
+}
