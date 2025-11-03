@@ -2372,15 +2372,16 @@ input[type='checkbox'] {
   }
 
   .header--top-center .header__heading-link,
-.header--top-center .header__heading,
-.header--middle-center .header__heading-link,
-.header--middle-center .header__heading {
+  .header--top-center .header__heading {
     justify-self: center;
     text-align: center;
   }
 
+
   .header--top-center .header__heading-link,
-  .header--top-center .header__heading {
+.header--top-center .header__heading,
+.header--middle-center .header__heading-link,
+.header--middle-center .header__heading {
     justify-self: center;
     text-align: center;
   }
