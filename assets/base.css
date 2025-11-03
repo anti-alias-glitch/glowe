@@ -2463,7 +2463,7 @@ input[type='checkbox'] {
     line-height: 1;
   }
 
-  a.header__icon--cart svg,   a.header__icon svg {
+  a.header__icon svg {
     display: none;
   }
 
