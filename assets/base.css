@@ -2470,7 +2470,40 @@ input[type='checkbox'] {
   a.header__icon--cart::after {
     content: 'Cart';
   }
+
+  .header__icons {
+	text-transform: uppercase;
+	height: 100%;
+	width: 100%;
 }
+
+.header__icon--cart {
+	text-decoration: none;
+	border-left: 1px solid black;
+	height: 100%;
+	margin-right: 0;
+	flex-basis: 100%;
+}
+
+.header__search {
+	border-left: 1px solid black;
+	height: 100%;
+	flex-basis: 100%;
+}
+
+.header__search details {
+	width: 100%;
+}
+
+.header__search details summary {
+	text-decoration: none;
+	height: 100%;
+	width: 100%;
+}
+
+}
+
+
 
 @media screen and (max-width: 989px) {
   menu-drawer ~ .header__icons .header__icon--account {
